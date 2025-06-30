@@ -26,11 +26,13 @@
   width:250px;
   font-size: 22px;
   border-radius: 25px;
-  transition: opacity .15s;
+  transition: opacity .15s ease, box-shadow .15s ease;
+
 }
 .amazon:hover{
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 7px rgba(0,0,0,.15);
 }
 .amazon:active{
   opacity:0.5;
@@ -49,11 +51,12 @@
  font-size: 18px;
  font-weight: 600;
  margin-bottom: 20px;
-
+transition :box-shadow .16s;
 }
 .github:hover{
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 7px rgba(0,0,0,.15);
 }
 .github:active{
   opacity:0.5;
@@ -69,11 +72,13 @@
   border-width: 0;
   font-weight: 500;
   border-radius: 5px;
+  transition: box-shadow 0.15s;
 
 }
 .bootstrap_1:hover{
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 7px rgba(0,0,0,.15);
 }
 .bootstrap_1:active{
   opacity:0.5;
@@ -93,6 +98,7 @@
   
   font-weight: 700;
   border-radius: 5px;
+  transition:box-shadow 0.2s;
 }
 .bootstrap_2:hover{
   background-color: rgb(134, 137, 139);
@@ -100,6 +106,7 @@
 
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.15);
 }
 .bootstrap_2:active{
   opacity:0.5;
@@ -114,11 +121,13 @@
   height: 30px;
   border-radius: 15px;
   font-weight: 600;
+  transition: box-shadow 0.2s;
   
 }
 .linkedIn-1:hover{
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 7px rgba(0,0,0,.15)
 }
 .linkedIn-1:active{
   opacity:0.5;
@@ -136,12 +145,14 @@
   font-weight:700;
 
   border-radius: 15px;
+  transition: box-shadow 0.15s;
 }
 .linkedIn-2:hover{
   color:white;
   background-color: rgb(10, 102, 194);;
   opacity: 0.7;
   cursor:pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.15);
 }
 .linkedIn-2:active{
   opacity:0.5;
