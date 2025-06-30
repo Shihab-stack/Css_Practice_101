@@ -1,0 +1,149 @@
+.uber{
+  color: white;
+  background-color:black ;
+  border-width: 0;
+  
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  transition: opacity .15s;
+  
+}
+.uber:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+.uber:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+.amazon{
+  background-color: rgb(255, 216, 20);
+  border-width: 0px;
+  height :50px;
+  width:250px;
+  font-size: 22px;
+  border-radius: 25px;
+  transition: opacity .15s;
+}
+.amazon:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+.amazon:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+.github{
+  color: white;
+  background-color:rgb(46, 164, 80) ;
+  border-width: 0;
+  
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+  margin-right: 20px;
+  border-radius: 12px;
+ font-size: 18px;
+ font-weight: 600;
+ margin-bottom: 20px;
+
+}
+.github:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+.github:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+.bootstrap_1{
+  color:white;
+  background-color: rgb(124, 83, 186);
+  width: 135px;
+    height: 46px;
+    font-size: 16px;
+  margin-right: 20px;
+  border-width: 0;
+  font-weight: 500;
+  border-radius: 5px;
+
+}
+.bootstrap_1:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+.bootstrap_1:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+.bootstrap_2{
+  color: rgb(134, 137, 139);
+  background-color: white;
+  width: 135px;
+    height: 46px;
+    font-size: 17px;
+  margin-right: 20px;
+  border-width: 2px;
+  border-color: rgb(134,137,139);
+  border-style:solid;
+  
+  
+  font-weight: 700;
+  border-radius: 5px;
+}
+.bootstrap_2:hover{
+  background-color: rgb(134, 137, 139);
+  color: white;
+
+  opacity: 0.7;
+  cursor:pointer;
+}
+.bootstrap_2:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+.linkedIn-1{
+  background-color:rgb(10, 102, 194);
+  border-width: 0;
+  color: white;
+
+  width: 170px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: 600;
+  
+}
+.linkedIn-1:hover{
+  opacity: 0.7;
+  cursor:pointer;
+}
+.linkedIn-1:active{
+  opacity:0.5;
+  cursor:pointer;
+}
+
+.linkedIn-2{
+  background-color:white;
+  border-width:1px;
+  border-color:rgb(10, 102, 194);
+  border-style:solid;
+  color:rgb(10, 102, 194);
+  height:31px;
+  width:60px;
+  font-weight:700;
+
+  border-radius: 15px;
+}
+.linkedIn-2:hover{
+  color:white;
+  background-color: rgb(10, 102, 194);;
+  opacity: 0.7;
+  cursor:pointer;
+}
+.linkedIn-2:active{
+  opacity:0.5;
+  cursor:pointer;
+}
